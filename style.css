@@ -1,0 +1,31 @@
+*{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: transform 300ms, box-shadow 300ms;
+    box-shadow: 0 5px 20px rgba(0,0,0,.25);
+}
+.container:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 100px rgba(0,0,0,.25);
+    
+}
